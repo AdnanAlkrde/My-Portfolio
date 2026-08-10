@@ -4,7 +4,17 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 
 ## 🌐 Live Demo
 
-[View Live Portfolio] (https://adnanalkrde.github.io/My-Portfolio/)
+[View Live Portfolio](https://adnanalkrde.github.io/My-Portfolio/)
+
+## 📸 Website Preview
+
+![Portfolio Preview](./assets/imgs/home.png)
+
+![Portfolio Projects](./assets/imgs/about.png)
+
+![Portfolio Projects](./assets/imgs/projects.png)
+
+![Portfolio Contact](./assets/imgs/contact.png)
 
 ## 👨‍💻 About Me
 
@@ -16,26 +26,26 @@ I enjoy turning ideas and designs into clean and interactive web experiences whi
 
 ## 🛠️ Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- Responsive Web Design
-- Font Awesome
-- Google Fonts
-- Git
-- GitHub
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
+* Font Awesome
+* Google Fonts
+* Git
+* GitHub
 
 ## ✨ Features
 
-- Modern and clean dark interface
-- Fully responsive design
-- Personal introduction
-- Skills showcase
-- Projects section
-- CV download
-- Contact section
-- Smooth scrolling
-- Mobile-friendly layout
+* Modern and clean dark interface
+* Fully responsive design
+* Personal introduction
+* Skills showcase
+* Projects section
+* CV download
+* Contact section
+* Smooth scrolling
+* Mobile-friendly layout
 
 ## 🎨 Design
 
@@ -43,17 +53,17 @@ The portfolio uses a modern dark theme with a minimal and professional visual st
 
 The design focuses on:
 
-- Clean typography
-- Responsive layouts
-- Simple navigation
-- Modern UI elements
-- Consistent spacing and visual hierarchy
+* Clean typography
+* Responsive layouts
+* Simple navigation
+* Modern UI elements
+* Consistent spacing and visual hierarchy
 
 ## 📄 CV
 
 My CV is available inside the project:
 
-[View My CV](assets/svg/Adnan%20AK%20CV%20(En).pdf)
+[View My CV](assets/svg/Adnan%20AK%20CV%20%28En%29.pdf)
 
 ## 🚀 Purpose
 
@@ -74,8 +84,14 @@ My-Portfolio/
 │
 ├── assets/
 │   ├── imgs/
+│   │   ├── portfolio-home.png
+│   │   ├── portfolio-projects.png
+│   │   └── portfolio-contact.png
+│   │
 │   └── svg/
+│       └── Adnan AK CV (En).pdf
 │
 ├── index.html
 ├── styles.css
 └── README.md
+```
