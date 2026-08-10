@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built to showcase my skills, 
 
 ## 🌐 Live Demo
 
-Coming soon...
+[View Live Portfolio] (https://adnanalkrde.github.io/My-Portfolio/)
 
 ## 👨‍💻 About Me
 
