@@ -1,536 +1,359 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta charset="UTF-8">
+    <meta
+      name="description"
+      content="Adnan Alkrde - Information Engineering Student and Front-End Developer."
+    />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+    <meta name="author" content="Adnan Alkrde" />
 
-  <meta
-    name="description"
-    content="Adnan Alkrde - Information Engineering Student and Front-End Developer."
-  >
+    <title>Adnan Alkrde | Front-End Developer</title>
 
-  <meta
-    name="author"
-    content="Adnan Alkrde"
-  >
-
-  <title>Adnan Alkrde | Front-End Developer</title>
-
-
-  <!-- =========================================
+    <!-- =========================================
        Google Fonts
   ========================================== -->
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-
-  <!-- =========================================
+    <!-- =========================================
        Font Awesome
   ========================================== -->
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-  >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
 
-
-  <!-- =========================================
+    <!-- =========================================
        Main CSS
   ========================================== -->
 
-  <link
-    rel="stylesheet"
-    href="styles.css"
-  >
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-</head>
-
-
-<body>
-
-
-  <!-- =========================================
+  <body>
+    <!-- =========================================
        Header
   ========================================== -->
 
-  <header>
+    <header>
+      <!-- AK Logo -->
 
-    <!-- AK Logo -->
+      <a href="#home" class="logo"> A<span>K</span> </a>
 
-    <a
-      href="#home"
-      class="logo"
-    >
-      A<span>K</span>
-    </a>
+      <!-- Navigation -->
 
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="#home"> Home </a>
+          </li>
 
-    <!-- Navigation -->
+          <li>
+            <a href="#aboutMe"> About </a>
+          </li>
 
-    <nav class="navigation">
+          <li>
+            <a href="#MyWorks"> Projects </a>
+          </li>
 
-      <ul>
+          <li>
+            <a href="#contactMe"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <li>
-          <a href="#home">
-            Home
-          </a>
-        </li>
-
-        <li>
-          <a href="#aboutMe">
-            About
-          </a>
-        </li>
-
-        <li>
-          <a href="#MyWorks">
-            Projects
-          </a>
-        </li>
-
-        <li>
-          <a href="#contactMe">
-            Contact
-          </a>
-        </li>
-
-      </ul>
-
-    </nav>
-
-  </header>
-
-
-
-  <!-- =========================================
+    <!-- =========================================
        Main
   ========================================== -->
 
-  <main>
-
-
-    <!-- =========================================
+    <main>
+      <!-- =========================================
          Hero Section
     ========================================== -->
 
-    <section
-      class="hero"
-      id="home"
-    >
+      <section class="hero" id="home">
+        <div class="heroSub">
+          <h1 class="name">I'm Adnan</h1>
 
-      <div class="heroSub">
+          <h1 class="title">Front-End Developer</h1>
 
-        <h1 class="name">
-          I'm Adnan
-        </h1>
+          <!-- Hero Buttons -->
 
-        <h1 class="title">
-          Front-End Developer
-        </h1>
+          <div class="heroBtns">
+            <!-- Hire Me -->
 
+            <a class="hireMe" href="#contactMe"> Hire Me </a>
 
-        <!-- Hero Buttons -->
+            <!-- Download CV -->
 
-        <div class="heroBtns">
+            <a class="cv" href="assets/svg/Adnan_Alkrde_Resume .pdf" download>
+              Download CV
 
-
-          <!-- Hire Me -->
-
-          <a
-            class="hireMe"
-            href="#contactMe"
-          >
-            Hire Me
-          </a>
-
-
-          <!-- Download CV -->
-
-          <a
-            class="cv"
-            href="assets/svg/Adnan_Alkrde_Resume .pdf"
-            download
-          >
-
-            Download CV
-
-            <i class="fa-solid fa-download"></i>
-
-          </a>
-
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
         </div>
 
-      </div>
+        <!-- Hero Icon -->
 
+        <div class="heroIcon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+      </section>
 
-      <!-- Hero Icon -->
-
-      <div class="heroIcon">
-
-        <i class="fa-solid fa-code"></i>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================================
+      <!-- =========================================
          About Me Section
     ========================================== -->
 
-    <section
-      class="aboutMe"
-      id="aboutMe"
-    >
+      <section class="aboutMe" id="aboutMe">
+        <!-- About Icon -->
 
-
-      <!-- About Icon -->
-
-      <div class="aboutMeIcon">
-
-        <i class="fa-solid fa-laptop-code"></i>
-
-      </div>
-
-
-      <!-- About Content -->
-
-      <div class="textContainer">
-
-
-        <!-- Section Title -->
-
-        <div class="textTitle">
-
-          <h1 class="aboutName">
-            About
-          </h1>
-
-          <h1 class="aboutTitle">
-            me
-          </h1>
-
+        <div class="aboutMeIcon">
+          <i class="fa-solid fa-laptop-code"></i>
         </div>
 
+        <!-- About Content -->
 
-        <!-- About Text -->
+        <div class="textContainer">
+          <!-- Section Title -->
 
-        <p class="aboutMePar">
+          <div class="textTitle">
+            <h1 class="aboutName">About</h1>
 
-          Hey, I'm Adnan, an Information Engineering student
-          and aspiring Front-End Developer passionate about
-          creating modern, responsive, and user-friendly
-          web experiences.
+            <h1 class="aboutTitle">me</h1>
+          </div>
 
-          <br>
-          <br>
+          <!-- About Text -->
 
-          I work with
-          <strong>HTML, CSS, and JavaScript</strong>,
-          focusing on clean code, responsive design, and
-          intuitive user interfaces. I enjoy turning ideas
-          into functional websites and continuously improving
-          my skills through real-world projects.
+          <p class="aboutMePar">
+            Hey, I'm Adnan, an Information Engineering student and aspiring
+            Front-End Developer passionate about creating modern, responsive,
+            and user-friendly web experiences.
 
-          <br>
-          <br>
+            <br />
+            <br />
 
-          I'm currently expanding my knowledge in
-          <strong>React, Git, and modern web development
-          practices</strong>,
-          while building projects that challenge me to learn
-          and grow as a developer.
+            I work with
+            <strong>HTML, CSS, and JavaScript</strong>, focusing on clean code,
+            responsive design, and intuitive user interfaces. I enjoy turning
+            ideas into functional websites and continuously improving my skills
+            through real-world projects.
 
-          <br>
-          <br>
+            <br />
+            <br />
 
-          My goal is simple: build websites that look great,
-          work smoothly, and provide a great user experience.
+            I'm currently expanding my knowledge in
+            <strong>React, Git, and modern web development practices</strong>,
+            while building projects that challenge me to learn and grow as a
+            developer.
 
-        </p>
+            <br />
+            <br />
 
-      </div>
+            My goal is simple: build websites that look great, work smoothly,
+            and provide a great user experience.
+          </p>
+        </div>
+      </section>
 
-    </section>
-
-
-
-    <!-- =========================================
+      <!-- =========================================
          My Works Section
     ========================================== -->
 
-    <section
-      class="works"
-      id="MyWorks"
-    >
+      <section class="works" id="MyWorks">
+        <div class="worksContainer">
+          <!-- Projects Title -->
 
-      <div class="worksContainer">
+          <div class="projectTitle">
+            <h1 class="aboutName">My recent</h1>
 
+            <h1 class="aboutTitle">works</h1>
+          </div>
 
-        <!-- Projects Title -->
+          <!-- Projects List -->
 
-        <div class="projectTitle">
-
-          <h1 class="aboutName">
-            My recent
-          </h1>
-
-          <h1 class="aboutTitle">
-            works
-          </h1>
-
-        </div>
-
-
-        <!-- Projects List -->
-
-        <ul>
-
-
-          <!-- =====================================
+          <ul>
+            <!-- =====================================
                Project 1
           ====================================== -->
 
-          <li>
-
-            <a
-              href="https://adnanalkrde.github.io/html-css-templat-1/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <img
-                src="assets/imgs/Screenshot 2026-08-10 050556.png"
-                alt="HTML and CSS Landing Page"
+            <li>
+              <a
+                href="https://adnanalkrde.github.io/html-css-templat-1/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <img
+                  src="assets/imgs/Screenshot 2026-08-10 050556.png"
+                  alt="HTML and CSS Landing Page"
+                />
+              </a>
+            </li>
 
-            </a>
-
-          </li>
-
-
-          <!-- =====================================
+            <!-- =====================================
                Project 2
           ====================================== -->
 
-          <li>
-
-            <a
-              href="https://adnanalkrde.github.io/Kasper-Template-2-/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <img
-                src="assets/imgs/Screenshot 2026-08-10 050758.png"
-                alt="Kasper Web Design Project"
+            <li>
+              <a
+                href="https://adnanalkrde.github.io/Kasper-Template-2-/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <img
+                  src="assets/imgs/Screenshot 2026-08-10 050758.png"
+                  alt="Kasper Web Design Project"
+                />
+              </a>
+            </li>
 
-            </a>
-
-          </li>
-
-
-          <!-- =====================================
+            <!-- =====================================
                Project 3
           ====================================== -->
 
-          <li>
-
-            <a
-              href="https://adnanalkrde.github.io/Tamkeen-Frontend/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <img
-                src="assets/imgs/Screenshot 2026-08-10 051045.png"
-                alt="Tamkeen Front-End System"
+            <li>
+              <a
+                href="https://adnanalkrde.github.io/Tamkeen-Frontend/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <img
+                  src="assets/imgs/Screenshot 2026-08-10 051045.png"
+                  alt="Tamkeen Front-End System"
+                />
+              </a>
+            </li>
 
-            </a>
-
-          </li>
-
-          <!-- =====================================
+            <!-- =====================================
                Project 4
           ====================================== -->
 
-          <li>
-
-            <a
-              href=" https://adnanalkrde.github.io/National-Survey-Platform/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-
-              <img
-                src="assets/imgs/Screenshot 2026-08-11 203132.png"
-                alt="National-Survey-Platform"
+            <li>
+              <a
+                href=" https://adnanalkrde.github.io/National-Survey-Platform/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
+                <img
+                  src="assets/imgs/Screenshot 2026-08-11 203132.png"
+                  alt="National-Survey-Platform"
+                />
+              </a>
+            </li>
 
-            </a>
+            <!-- =====================================
+               Project 5
+          ====================================== -->
 
-          </li>
+            <li>
+              <a
+                href=" https://adnanalkrde.github.io/weather-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="assets/imgs/weather.png"
+                  alt="Weather App"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        </ul>
-
-      </div>
-
-    </section>
-
-
-
-    <!-- =========================================
+      <!-- =========================================
          Contact Section
     ========================================== -->
 
-    <section
-      class="contactContainer"
-      id="contactMe"
-    >
+      <section class="contactContainer" id="contactMe">
+        <!-- Contact Title -->
 
+        <div class="contactTitle">
+          <h1 class="aboutName">Contact</h1>
 
-      <!-- Contact Title -->
-
-      <div class="contactTitle">
-
-        <h1 class="aboutName">
-          Contact
-        </h1>
-
-        <h1 class="aboutTitle">
-          me
-        </h1>
-
-      </div>
-
-
-      <!-- Contact Information -->
-
-      <div class="contact">
-
-
-        <!-- Email -->
-
-        <div class="emailAndPhone">
-
-          <i class="fa-solid fa-envelope"></i>
-
-          <a
-            href="mailto:adnanalkrde2006@gmail.com"
-          >
-
-            <h3>
-              adnanalkrde2006@gmail.com
-            </h3>
-
-          </a>
-
+          <h1 class="aboutTitle">me</h1>
         </div>
 
+        <!-- Contact Information -->
 
-        <!-- Phone -->
+        <div class="contact">
+          <!-- Email -->
 
-        <div class="emailAndPhone">
+          <div class="emailAndPhone">
+            <i class="fa-solid fa-envelope"></i>
 
-          <i class="fa-solid fa-phone"></i>
+            <a href="mailto:adnanalkrde2006@gmail.com">
+              <h3>adnanalkrde2006@gmail.com</h3>
+            </a>
+          </div>
 
-          <h3>
-            (+963) 951482151
-          </h3>
+          <!-- Phone -->
 
+          <div class="emailAndPhone">
+            <i class="fa-solid fa-phone"></i>
+
+            <h3>(+963) 951482151</h3>
+          </div>
         </div>
 
-      </div>
-
-
-
-      <!-- =========================================
+        <!-- =========================================
            Social Media
       ========================================== -->
 
-      <div class="socialMedia">
+        <div class="socialMedia">
+          <!-- LinkedIn -->
 
+          <a
+            href="https://www.linkedin.com/in/adnanalkrde"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
 
-        <!-- LinkedIn -->
+          <!-- GitHub -->
 
-        <a
-          href="https://www.linkedin.com/in/adnanalkrde"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-        >
+          <a
+            href="https://github.com/AdnanAlkrde"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
 
-          <i class="fa-brands fa-linkedin-in"></i>
+          <!-- Email -->
 
-        </a>
+          <a href="mailto:adnanalkrde2006@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </section>
+    </main>
 
-
-        <!-- GitHub -->
-
-        <a
-          href="https://github.com/AdnanAlkrde"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-
-          <i class="fa-brands fa-github"></i>
-
-        </a>
-
-
-        <!-- Email -->
-
-        <a
-          href="mailto:adnanalkrde2006@gmail.com"
-          aria-label="Email"
-        >
-
-          <i class="fa-solid fa-envelope"></i>
-
-        </a>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-
-  <!-- =========================================
+    <!-- =========================================
        Footer
   ========================================== -->
 
-  <hr>
+    <hr />
 
-  <footer>
-
-    <p>
-      Built with
-      <span>&lt;/&gt;</span>
-      by AK.
-    </p>
-
-  </footer>
-
-
-</body>
-
+    <footer>
+      <p>
+        Built with
+        <span>&lt;/&gt;</span>
+        by AK.
+      </p>
+    </footer>
+  </body>
 </html>
-
-
